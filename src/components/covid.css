@@ -1,0 +1,119 @@
+.mainbody {
+    background-color: rgb(68, 66, 66);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+ p, h2 {
+    color: rgb(253, 253, 253);
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .card_main {
+    height: 150px;
+    width: 400px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(4, 45, 105);
+} */
+
+.card_name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card_name span {
+    font-size: 15px;
+}
+
+.card_total {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+
+
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+/* h1,h2{
+    text-align: center;
+} */
+
+h1{
+
+    /* font-size: 20px;
+            font-weight: bold;
+            color: #2d38be;
+            transition: 0.5s; */
+    transform:scale(0.5); 
+    transition:transform 0.5s linear;
+    color: antiquewhite;
+    animation: App-logo-blink infinite 20s linear;
+
+}
+
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+.card{
+     background-color:rgb(41, 180, 183);
+     width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+
+.card:hover{
+    transform:scale(1.1);
+} 
+
+.card_name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card_name span {
+    font-size: 15px;
+}
+
+.card_total {
+    font-size: 200%;
+    font-weight: bold;
+
+}
+
+/* section {
+
+    background-color: #010000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  } */
